@@ -98,7 +98,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/ca73aa215579a60c700f3.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/524df3547ab9d96780207.jpg"
 
 # Bleep Blop, this is a bot :)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -123,7 +123,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/apisuserbot/King-Userbot.git")
+    "https://github.com/arullk5566/King-Userbot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "King-Userbot")
 
@@ -208,11 +208,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/8eb368517a8d3933c05d9.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/524df3547ab9d96780207.jpg"
 
 # Default .helpme logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/8eb368517a8d3933c05d9.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/524df3547ab9d96780207.jpg"
 
 # Default Emoji Help Inline
 EMOJI_HELP = os.environ.get(
@@ -354,7 +354,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗞𝗶𝗻𝗴-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```⚡KlimanaM⚡ Telah Aktif```")
     return
 
 with bot:
@@ -430,11 +430,11 @@ def paginate_help(page_number, loaded_modules, prefix):
 
 
 # -----------------------------------------------File------------------------------------>
-king = bot
+klimanam = bot
 
 with king:
     try:
-        king.tgbot = tgbot = TelegramClient(
+        klimanam.tgbot = tgbot = TelegramClient(
             "BOT_TOKEN",
             api_id=API_KEY,
             api_hash=API_HASH).start(
@@ -447,7 +447,7 @@ with king:
         logo = INLINE_PIC
         alive = ALIVE_LOGO
 
-        donate = "https://telegra.ph/file/4f8964fdd184b76b7ec8a.jpg"
+        donate = "https://telegra.ph/file/524df3547ab9d96780207.jpg"
         plugins = CMD_HELP
 
 # ------------------------------ChatAction--------------->
@@ -461,13 +461,6 @@ with king:
                     f"**Selamat datang di** [{get_display_name(u)}](tg://user?id={u.id}) \n\n"
                     f"👤 **Pengguna :** [{get_display_name(c)}](tg://user?id={c.id}) \n"
                     f"📌 **ID Pengguna :** {c.id} \n\n"
-                    f"🤖 __Gabung Grup Tutorial Userbot Kami Agar Anda Bisa Memahami Userbot Telegram__\n",
-                    buttons=[
-                        [
-                            Button.url("Tutorial Userbot",
-                                       "https://t.me/KingUserbotSupport")],
-                    ]
-                )
 
 # ====================================InlineHandler===================================== #
 
@@ -496,10 +489,10 @@ with king:
                                                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                                                [custom.Button.url(
                                                    text="Support Chat",
-                                                   url="https://t.me/KingUserbotSupport"),
+                                                   url="https://t.me/klimanam"),
                                                    custom.Button.url(
                                                        text="Support Channel",
-                                                       url="https://t.me/TeamKingUserbot"
+                                                       url="https://t.me/kabcdefghijklmnopqrstuv"
                                                )
                                                ]
                                            ]
@@ -517,9 +510,9 @@ with king:
                     buttons=[
                         [
                             Button.url("Repository",
-                                       "https://github.com/apisuserbot/King-Userbot"),
+                                       "https://github.com/arullk5566/King-Userbot"),
                             Button.url("License",
-                                       "https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE")],
+                                       "https://github.com/arullk5566/King-Userbot/blob/King-Userbot/LICENSE")],
                     ]
                 )
 
@@ -560,10 +553,10 @@ with king:
                                                [
                                                    custom.Button.url(
                                                        text="Repository",
-                                                       url="https://github.com/apisuserbot/King-Userbot"),
+                                                       url="https://github.com/arullk5566/King-Userbot"),
                                                    custom.Button.url(
                                                        text="License",
-                                                       url="https://github.com/apisuserbot/King-Userbot/blob/King-Userbot/LICENSE"
+                                                       url="https://github.com/arullk5566/King-Userbot/blob/King-Userbot/LICENSE"
                                                    )
                                                ]
                                            ]
